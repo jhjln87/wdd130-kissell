@@ -13,5 +13,5 @@ j //your FIRST initial
 1 //which push of the day it was.
 
 EXAMPLE: 
-I made my fourth commit of Christmas day (i know, depressing.) and my name is billy
+I made my fourth commit of Christmas day 2025 (i know, depressing.) and my name is billy
 12.25.25.b.4
