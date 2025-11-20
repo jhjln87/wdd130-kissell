@@ -1,4 +1,12 @@
 # wdd130-kissell
+wdd130 final project website for ayden kissell
+
+web address is 
+jhjln87.github.io/wdd130-kissell/
+
+junior devs
+zack gray - page 1 // skin rankings page
+hunter cole - page 2 // outfit combos page
 
 # proper push formatting!
 Should include this:
