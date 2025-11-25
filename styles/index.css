@@ -5,13 +5,13 @@
 
 #hero h1 {
     font: var(--headerFont);
-    font-size: 3.2vw;
+    font-size: clamp(20px, 3.2vw, 3.2vw);
     font-weight: 700;
 }
 
 #hero h2 {
     font: var(--paragraphFont);
-    font-size: 1.6vw;
+    font-size: clamp(12px, 1.6vw, 1.6vw);
 }
 
 #card {
@@ -39,12 +39,35 @@
     object-fit:cover;
     overflow: hidden;
 }
+
+#card p {
+    font-size: clamp(12px, 1vw, 1vw);
+}
+
 #midDiv img {
     aspect-ratio: 16 / 7;
 }
 
 #card h4 {
     font: var(--paragraphFont);
-    font-size: 1.3vw;
+    font-size: clamp(12px, 1.3vw, 1.3vw);
     font-weight: 700;
+}
+
+@media (width < 690px) {
+    #card {
+        grid-template-columns: unset;
+        padding-bottom: 20px;
+    }
+    #card a {
+        display: grid;
+        grid-template-columns: 20% 1fr;
+        gap: 20px;
+    }
+    #card img {
+        aspect-ratio: 1 / 1;
+    }
+    #card div {
+        grid-area: 1 / 2 / span 1 / span 1;
+    }
 }

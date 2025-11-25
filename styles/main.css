@@ -41,13 +41,13 @@ header {
 nav {
     display: flex;
     align-self: flex-end;
-    margin-left:auto;
+    margin-left: auto;
 }
 
 nav a {
     text-decoration: none;
     margin: 0 20px;
-    font-size: 1.2vw;
+    font-size: clamp(12px, 1.2vw, 1.2vw);
 }
 nav a:hover {
     text-shadow: 2px 2px 5px rgba(15, 17, 21, 0.2);
@@ -60,6 +60,19 @@ main {
 
 footer {
     text-align: center;
-    font-size: 0.9vw;
+    font-size: clamp(8px, 0.9vw, 0.9vw);
     border-top: var(--accent2) 2px solid;
+}
+
+@media (width < 690px) {
+    header {
+        display: grid;
+        grid-template: 50px 50px / 1fr
+    }
+    nav {
+        grid-area: 2 / 1 / span 1 / span 1
+    }
+    #logo {
+        text-align: center;
+    }
 }
