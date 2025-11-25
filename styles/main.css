@@ -5,13 +5,13 @@
     --secondaryColor: #5d5fef;
     --accent1: #f2f2f2;
     --accent2: #ff2e9e;
-    --headerFont: 'Montserrat', 'Bebas Neue', Arial;
-    --paragraphFont: 'Inter', 'Open Sans', Helvetica;
+    --headerFont: "Montserrat", "Bebas Neue", Arial;
+    --paragraphFont: "Inter", "Open Sans", Helvetica;
 }
 
 p, a {
     color: var(--primaryColor);
-    font: var(--paragraphFont);
+    font-family: var(--paragraphFont);
 }
 
 a:hover {
@@ -35,7 +35,7 @@ header {
     display: flex;
     width:100%;
     text-transform: uppercase;
-    font: var(--headerFont);
+    font-family: var(--headerFont);
 }
 
 nav {
