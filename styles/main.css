@@ -18,6 +18,13 @@ a:hover {
     text-decoration: none;
 }
 
+header #logo {
+    width: 15%;
+}
+#logo img {
+    width: 100%;
+}
+
 body {
     background-color: var(--accent1);
     padding: 0 18%;
@@ -42,6 +49,9 @@ nav {
     display: flex;
     align-self: flex-end;
     margin-left: auto;
+    align-items: center;
+    width: 85%;
+    aspect-ratio: 5 / 1;
 }
 
 nav a {
